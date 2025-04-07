@@ -7,9 +7,11 @@ document.addEventListener('DOMContentLoaded', function(){
    botaoacessibilidade.classlist.toggle ('apresenta-lista');
    })
 
-    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+    
+   const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuaFonteBotao = document.getElementById('aumentar-fonte');
 
+    
     let tambemAumentarFonte  = 1;
     aumentaFonteBotao.addEventListener('click',function( ){
         tambemAumentarFonte += 0.1;
