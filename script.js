@@ -26,4 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
     })
+
+    alternaContraste.addEventListener('click',fuction(){
+        document.body.classList.toggle('alto-contraste')
+    })
 })
